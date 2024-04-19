@@ -40,7 +40,7 @@ graph TD;
     Front-End-->CSS3;
     Front-End-->JavaScript;
     Front-End-->Angular;
-    Front-End-->XML;
+    Front-End-->Flutter;
     Front-End-->JSON;
     Front-End-->TypeScript;
 ```
@@ -48,33 +48,34 @@ graph TD;
 
 ```mermaid
 graph TD;
-    Back-End-->Java;
     Back-End-->NodeJs;
-    NodeJs-->Socket.io;
-    NodeJs-->Meteor.Js.
-    Back-End-->PHP;
-    PHP-->Laravel;
-    PHP-->Zend;
-    PHP-->CakePHP;
-    Java-->JavaSE;
-    Java-->JavaEE;
-    JavaEE-->PureApplet;
-    JavaEE-->JavaServlet;
-    JavaEE-->EBJ;
-    Java-->Spring;
-    Java-->SQL;
-    Laravel-->SQL;
-    Spring-->SprBootMVC;
-    Spring-->SprBootAPI-REST;
-    Spring-->SprDATA-JPA;
-    SQL-->Hibernate;
-    SQL-->Spr-JDBC;
-    Spring-->Spr-Security;
-    Spring-->JSP;
-    Spring-->JPA;
-    Java-->Forms;
-    Forms-->iReport
-    Forms-->JFrame;
+    Back-End-->Docker;
+    Docker-->Containerization;
+    Back-End-->ASP.NET;
+    ASP.NET-->WEB-API;
+    WEB-API-->API-REST;
+    Back-End-->Databases;
+    Databases-->SQL;
+    Databases-->NoSQL;
+    NoSQL-->MongoDB;
+    NoSQL-->Redis;
+    SQL-->SqlServer;
+    SQL-->PostgreSQL;
+    SQL-->MySQL;
+    NodeJs-->ExpressJs;
+    NodeJs-->NestJs;
+    ExpressJs-->API-REST;
+    NestJs-->API-REST;
+    NestJs-->Microservices;
+    Microservices-->gRPC;
+    Microservices-->RabbitMQ;
+    Microservices-->NATS;
+    Microservices-->TCP;
+    Microservices-->Kafka;
+    NestJs-->WebSockets;
+    WebSockets-->Gateway;
+    Containerization-->Microservices;
+    Containerization-->API-REST;
 ```
 
 <!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
